@@ -4,6 +4,7 @@ import Footer from './components/Footer.jsx'
 import Header from './components/Header.jsx'
 import HomeScreeen from './screens/HomeScreen'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import ProductDetails from './screens/ProductDetails'
 
 function App() {
   return (
@@ -11,9 +12,8 @@ function App() {
       <Header />
       <main className="my-3">
         <Container>
-          <h1>Electronics</h1>
           <Route path="/" component={HomeScreeen} exact />
-          <HomeScreeen />
+          <Route path="/product/:id" component={ProductDetails} />
         </Container>
       </main>
       <Footer />
