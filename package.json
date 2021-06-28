@@ -1,0 +1,22 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "mern app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJavedAli/amazon-clone.git"
+  },
+  "author": "javed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MJavedAli/amazon-clone/issues"
+  },
+  "homepage": "https://github.com/MJavedAli/amazon-clone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

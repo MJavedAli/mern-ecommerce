@@ -8,7 +8,7 @@ const ProductDetails = ({match}) => {
     const product = Product.find((p)=>p._id===match.params.id)
     return (
         <div>
-            <Link to='/'>fas</Link>
+            <Link to='/'>GO BACK</Link>
             <Row>
                 <Col md={6}>
                 <Image src={product.image} alt={product.name} fluid/>
